@@ -31,12 +31,12 @@ public class InstrumentalTests {
         AndroidDriver = new Driver().webDriver(appName, host , port);
     }
 
-    @Test(description ="Launch the app, and verify the age field is displayed")
+    @Test(description ="Verify the app is installed")
     public void TC_01(){
         boolean isAgeFieldDispayed = false;
         boolean isAppInstalled= false;
         try {
-            System.out.println(debug + "01.Check weather age field is displayed ");
+            System.out.println(debug + "01.Verify the app is installed");
             isAppInstalled = AndroidDriver.isAppInstalled("com.example.ageverifier");
             assertThat("App is not installed"
                     , isAppInstalled, equalTo(true));
@@ -53,7 +53,7 @@ public class InstrumentalTests {
         boolean isAgeFieldDispayed = false;
         boolean isAppInstalled= false;
         try{
-            System.out.println(debug +"01.Check weather age field is displayed ");
+            System.out.println(debug +"01.Verify the app is installed");
             isAppInstalled = AndroidDriver.isAppInstalled("com.example.ageverifier");
             assertThat("App is not installed"
                     ,isAppInstalled, equalTo(true));
@@ -81,7 +81,7 @@ public class InstrumentalTests {
         String actualText =  "";
         boolean isAppInstalled = false;
         try{
-            System.out.println(debug +"01.Check weather age field is displayed ");
+            System.out.println(debug +"01.Verify the app is installed");
             isAppInstalled = AndroidDriver.isAppInstalled("com.example.ageverifier");
             assertThat("App is not installed"
                     ,isAppInstalled, equalTo(true));
@@ -106,7 +106,7 @@ public class InstrumentalTests {
         String expectedText = "Am I old enought to drink?";
         boolean isAppInstalled = false;
         try{
-            System.out.println(debug +"01.Check weather age field is displayed ");
+            System.out.println(debug +"01.Verify the app is installed");
             isAppInstalled = AndroidDriver.isAppInstalled("com.example.ageverifier");
             assertThat("App is not installed"
                     ,isAppInstalled, equalTo(true));
@@ -130,7 +130,7 @@ public class InstrumentalTests {
             String expectedText = "Am I old enought to drink?";
         boolean isAppInstalled = false;
         try{
-            System.out.println(debug +"01.Check weather age field is displayed ");
+            System.out.println(debug +"01.Verify the app is installed");
             isAppInstalled = AndroidDriver.isAppInstalled("com.example.ageverifier");
             assertThat("App is not installed"
                     ,isAppInstalled, equalTo(true));
@@ -169,7 +169,7 @@ public class InstrumentalTests {
         String expectedText = "Am I old enought to drink?";
         boolean isAppInstalled = false;
         try{
-            System.out.println(debug +"01.Check weather age field is displayed ");
+            System.out.println(debug +"01.Verify the app is installed");
             isAppInstalled = AndroidDriver.isAppInstalled("com.example.ageverifier");
             assertThat("App is not installed"
                     ,isAppInstalled, equalTo(true));
@@ -210,7 +210,7 @@ public class InstrumentalTests {
         String expectedText = "Am I old enought to drink?";
         boolean isAppInstalled = false;
         try{
-            System.out.println(debug +"01.Check weather age field is displayed ");
+            System.out.println(debug +"01.Verify the app is installed");
             isAppInstalled = AndroidDriver.isAppInstalled("com.example.ageverifier");
             assertThat("App is not installed"
                     ,isAppInstalled, equalTo(true));
@@ -246,7 +246,7 @@ public class InstrumentalTests {
         String expectedText = "Am I old enought to drink?";
         boolean isAppInstalled = false;
         try{
-            System.out.println(debug +"01.Check weather age field is displayed ");
+            System.out.println(debug +"01.Verify the app is installed");
             isAppInstalled = AndroidDriver.isAppInstalled("com.example.ageverifier");
             assertThat("App is not installed"
                     ,isAppInstalled, equalTo(true));
@@ -288,7 +288,7 @@ public class InstrumentalTests {
         String expectedText = "Am I old enought to drink?";
         boolean isAppInstalled = false;
         try{
-            System.out.println(debug +"01.Check weather age field is displayed ");
+            System.out.println(debug +"01.Verify the app is installed");
             isAppInstalled = AndroidDriver.isAppInstalled("com.example.ageverifier");
             assertThat("App is not installed"
                     ,isAppInstalled, equalTo(true));
@@ -327,7 +327,7 @@ public class InstrumentalTests {
         String expectedText = "Am I old enought to drink?";
         boolean isAppInstalled = false;
         try{
-            System.out.println(debug +"01.Check weather age field is displayed ");
+            System.out.println(debug +"01.Verify the app is installed");
             isAppInstalled = AndroidDriver.isAppInstalled("com.example.ageverifier");
             assertThat("App is not installed"
                     ,isAppInstalled, equalTo(true));
@@ -363,7 +363,7 @@ public class InstrumentalTests {
         String expectedText = "Am I old enought to drink?";
         boolean isAppInstalled = false;
         try{
-            System.out.println(debug +"01.Check weather age field is displayed ");
+            System.out.println(debug +"01.Verify the app is installed");
             isAppInstalled = AndroidDriver.isAppInstalled("com.example.ageverifier");
             assertThat("App is not installed"
                     ,isAppInstalled, equalTo(true));

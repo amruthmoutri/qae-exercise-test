@@ -15,5 +15,5 @@ Please add tests to cover this simple functionality, go as deep as you think is 
 
 ## We neeed TestNG to run the tests. 
 
-please add this configuration for the tests to pass, example location == 
+please add this configuration for the tests to pass, example location 
 "/Users/<user>/Documents/qae-exercise/app/app/testNG.xml"

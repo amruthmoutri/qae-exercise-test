@@ -4,7 +4,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 import io.appium.java_client.android.AndroidDriver;
@@ -20,7 +19,7 @@ public class Driver {
         File app = new File(appDir, appName);
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
-        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Rahulemulator");
+        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "uiemulator");
         capabilities.setCapability(MobileCapabilityType.APP, appDir.getAbsolutePath() + "/src/"+appName);
         driver = new AndroidDriver<>(new URL(hostName+portNumber+"/wd/hub"), capabilities);
 

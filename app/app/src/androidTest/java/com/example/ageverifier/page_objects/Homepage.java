@@ -124,7 +124,7 @@ public class Homepage {
             enterAgeInTextField(randomNumber);
             androidDriver.hideKeyboard();
             amIOldEnoughButton.click();
-            Thread.sleep(1000);
+            new WebDriverWait(androidDriver ,20).until(ExpectedConditions.textToBePresentInElement(statusTextViewer, expectedText));
         }else{
             String actualText = "randomText";
         }
